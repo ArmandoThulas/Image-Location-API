@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImageLocationAPI.Data\ImageLocationAPI.Data.csproj" />
+    <ProjectReference Include="..\ImageLocationAPI.Models\ImageLocationAPI.Models.csproj" />
+    <ProjectReference Include="..\ImageLocationAPI.Service\ImageLocationAPI.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\..\ArmandoThulas\Tini Rentals API\TiniRentals\bin\Debug\net5.0\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>..\..\ArmandoThulas\Tini Rentals API\TiniRentals\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
